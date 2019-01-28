@@ -1,5 +1,5 @@
 {
-  "name": "codexten/metronic",
+  "name": "codexten/yii-metronic",
   "type": "library",
   "description": "Metronic THeme",
   "require": {
@@ -9,7 +9,7 @@
  },
   "autoload": {
     "psr-4": {
-      "codexten\\metronic\\": "src"
+      "codexten\\yii\\metronic\\": "src"
     }
   },
   "extra": {
