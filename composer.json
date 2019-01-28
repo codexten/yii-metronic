@@ -1,0 +1,23 @@
+{
+  "name": "codexten/metronic",
+  "type": "library",
+  "description": "Metronic THeme",
+  "require": {
+    "yiisoft/yii2-bootstrap4": "~1.0.0",
+    "mzdani/yii2-webfont-loader": "dev-master",
+    "enterosoft/yii2-perfect-scrollbar": "dev-master"
+ },
+  "autoload": {
+    "psr-4": {
+      "codexten\\metronic\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    },
+    "sconfig-plugin": {
+      "metronic": "src/config/metronic.php"
+    }
+  }
+}
