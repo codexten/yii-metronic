@@ -1,7 +1,7 @@
 {
   "name": "codexten/yii-metronic",
   "type": "library",
-  "description": "Metronic THeme",
+  "description": "Metronic Theme integration",
   "require": {
     "yiisoft/yii2-bootstrap4": "~1.0.0",
     "mzdani/yii2-webfont-loader": "dev-master",
