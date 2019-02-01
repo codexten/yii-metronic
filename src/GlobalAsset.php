@@ -6,13 +6,15 @@
  * Time: 12:20 PM
  */
 
-namespace codexten\yii\metronic;
+namespace entero\metronic;
 
+use entero\vue\VueBaseAsset;
+use entero\vue\VueWidgetAsset;
 use yii\web\AssetBundle;
 
 class GlobalAsset extends AssetBundle
 {
-    public $sourcePath = '@codexten/metronic/assets';
+    public $sourcePath = '@entero/metronic/assets';
     public $css = [
         'tether/dist/css/tether.css',
 //        'bootstrap-datepicker/dist/css/bootstrap-datepicker3.min.css',
@@ -53,7 +55,8 @@ class GlobalAsset extends AssetBundle
     ];
     public $depends = [
         'yii\bootstrap4\BootstrapPluginAsset',
-        'codexten\perfectScrollbar\PerfectScrollbarAsset',
+        'entero\perfectScrollbar\PerfectScrollbarAsset',
         Select2Asset::class,
+        VueBaseAsset::class,
     ];
 }

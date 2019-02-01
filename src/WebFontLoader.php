@@ -6,7 +6,7 @@
  * Time: 5:19 PM
  */
 
-namespace codexten\yii\metronic;
+namespace entero\metronic;
 
 
 use mdscomp\asset\WebFontLoaderAsset;

@@ -1,0 +1,10 @@
+deploy:
+  before:
+    - metronic
+metronicDir:
+  path: .
+  runtime:
+    common:
+      media:
+        metronic:
+          symlink: '../../../vendor/entero/entero-metronic/src/media'

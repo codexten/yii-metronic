@@ -10,29 +10,29 @@ return [
     'components' => [
         'i18n' => [
             'translations' => [
-                'codexten:metronic' => [
+                'entero:metronic' => [
                     'class' => \yii\i18n\PhpMessageSource::class,
-                    'basePath' => '@codexten/metronic/messages',
+                    'basePath' => '@entero/metronic/messages',
                 ],
             ],
         ],
         'view' => [
             'theme' => [
-                'class' => \codexten\yii\metronic\Theme::class,
+                'class' => \entero\metronic\Theme::class,
                 'pathMap' => [
                     '@app/views' => [
-                        '@codexten/metronic/views',
+                        '@entero/metronic/views',
                     ],
                     '@app/views/layouts' => [
-                        '@codexten/metronic/views/layouts',
+                        '@entero/metronic/views/layouts',
                     ],
-                    '@codexten/module/user/views' => [
-                        '@codexten/metronic/views/_modules/user',
+                    '@entero/module/user/views' => [
+                        '@entero/metronic/views/_modules/user',
                         //To fix layout issue of user module, while accessing `/account/login`
-                        '@codexten/metronic/views',
+                        '@entero/metronic/views',
                     ],
-                    '@codexten/web/widgets/views' => [
-                        '@codexten/metronic/widgets/views',
+                    '@entero/web/widgets/views' => [
+                        '@entero/metronic/widgets/views',
                     ],
                 ],
             ],
@@ -45,17 +45,17 @@ return [
                 'layout' => 'base',
             ],
             // widgets
-            \codexten\web\widgets\Page::class => [
-                'class' => \codexten\yii\metronic\widgets\Page::class,
+            \entero\web\widgets\Page::class => [
+                'class' => \entero\metronic\widgets\Page::class,
             ],
-            codexten\web\widgets\IndexPage::class => [
-                'class' => codexten\yii\metronic\widgets\IndexPage::class,
+            entero\web\widgets\IndexPage::class => [
+                'class' => entero\metronic\widgets\IndexPage::class,
             ],
-//            \codexten\web\widgets\CreatePage::class => [
-//                'class' => \codexten\yii\metronic\widgets\CreatePage::class,
+//            \entero\web\widgets\CreatePage::class => [
+//                'class' => \entero\metronic\widgets\CreatePage::class,
 //            ],
             \yii\widgets\Breadcrumbs::class => [
-                'class' => \codexten\yii\metronic\widgets\Breadcrumbs::class,
+                'class' => \entero\metronic\widgets\Breadcrumbs::class,
             ],
             \kartik\form\ActiveForm::class => [
                 'class' => \kartik\form\ActiveForm::class,
@@ -71,14 +71,14 @@ return [
             ],
 
             //vue Widgets
-            \codexten\vue\widgets\Form::class => [
-                'class' => \codexten\yii\metronic\widgets\Form::class,
+            \entero\vue\widgets\Form::class => [
+                'class' => \entero\metronic\widgets\Form::class,
             ],
 
             // menus
-            \codexten\yii\metronic\widgets\MainMenu::class => [
+            \entero\metronic\widgets\MainMenu::class => [
                 'menu' => [
-                    'class' => \codexten\web\menus\PrimaryMenu::class,
+                    'class' => \entero\web\menus\PrimaryMenu::class,
                 ],
             ],
         ],

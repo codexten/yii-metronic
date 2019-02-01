@@ -8,7 +8,7 @@ $this->params['app']['options']['style'] = [
 ];
 ?>
 
-<?php $this->beginContent('@codexten/web/views/layouts/base.php'); ?>
+<?php $this->beginContent('@entero/web/views/layouts/base.php'); ?>
 
 <?= $content ?>
 
