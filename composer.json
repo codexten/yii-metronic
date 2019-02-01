@@ -7,8 +7,9 @@
     "mzdani/yii2-webfont-loader": "dev-master",
     "npm-asset/select2": "~4.0",
     "enterosoft/yii2-perfect-scrollbar": "dev-master",
-    "entero/entero-web": "2.0.*",
-    "entero/entero-app-console": "2.0.*"
+    "entero/entero-web": "~2.0.0",
+    "entero/entero-app-console": "~2.0.0",
+    "codexten/yii-settings": "~2.0.0"
   },
   "autoload": {
     "psr-4": {
