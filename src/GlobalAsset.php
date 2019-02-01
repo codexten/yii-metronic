@@ -56,7 +56,7 @@ class GlobalAsset extends AssetBundle
     public $depends = [
         'yii\bootstrap4\BootstrapPluginAsset',
         'entero\perfectScrollbar\PerfectScrollbarAsset',
-        Select2Asset::class,
+//        Select2Asset::class,
         VueBaseAsset::class,
     ];
 }

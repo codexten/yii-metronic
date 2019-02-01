@@ -7,4 +7,4 @@ metronicDir:
     common:
       media:
         metronic:
-          symlink: '../../../vendor/entero/entero-metronic/src/media'
+          symlink: '/project/metronic/assets/media'

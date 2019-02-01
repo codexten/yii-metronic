@@ -7,5 +7,5 @@
  */
 
 return [
-
+    'metronic.asset.path' => '/project/metronic/assets',
 ];

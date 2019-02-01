@@ -44,6 +44,7 @@ return [
             \yii\web\ErrorAction::class => [
                 'layout' => 'base',
             ],
+
             // widgets
             \entero\web\widgets\Page::class => [
                 'class' => \entero\metronic\widgets\Page::class,
@@ -68,6 +69,11 @@ return [
                     ],
                     'addClass' => 'form-control m-input',
                 ],
+            ],
+
+            //assets
+            \entero\metronic\GlobalAsset::class => [
+                'sourcePath' => $params['metronic.asset.path'],
             ],
 
             //vue Widgets
